@@ -20,6 +20,15 @@ body {
     flex-direction: column;
 }
 
+.button{
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    margin-top: 25px;
+    
+}
+
 #index-landing {
     /* width: 100vw; */
     height: 50vh;
@@ -157,4 +166,42 @@ body {
 }
 #index-story-title{
     font-size:28px;
+}
+
+#index-contact{
+    /* width:100vw; */
+    position: relative;
+    /* height:450px; */
+}
+
+#index-contact-box{
+    width:40%;
+    height: auto;
+    background-color: #C6E345;
+    position: relative;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    padding: 50px 25px;
+
+}
+
+#about-butt{
+    background-color: #D493E6;
+    width: 100px;
+}
+
+#words-butt, #contact-butt{
+background-color: #F7A659;
+}
+#story-butt{
+    background-color: #C6E345;
 }
