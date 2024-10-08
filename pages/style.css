@@ -1,0 +1,85 @@
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+#navbar {
+    background-color: #C6E345;
+    width: 100vw;
+    height: 100px;
+}
+
+
+
+
+
+#index-landing {
+    width: 100vw;
+    height: 300px;
+    background-color: #D493E6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom:3px solid black;
+}
+
+.title-text {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-optical-sizing: auto;
+
+    font-style: normal;
+    margin: 0px;
+    padding:0px;
+}
+
+.text{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+    margin: 0px;
+    padding:0px;
+}
+
+#index-title{
+    font-size: 64px;
+}
+
+#index-subtitle{
+    font-size: 54px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px;
+}
+
+#index-about{
+    width:100vw;
+    height:450px;
+}
+
+#index-about-box{
+    width:65%;
+    height: 100%;
+    background-color: #C6E345;
+    position: relative;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+    padding: 25px;
+}
+
+#about-title{
+    margin: 5px 0px;
+    color:#2C5DFF;
+}
+
