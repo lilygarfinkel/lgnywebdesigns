@@ -7,9 +7,9 @@ body {
 
 #navbar {
     background-color: #C6E345;
-    width: 100vw;
+    /* width: 100vw; */
     height: 100px;
-    /* position: fixed; */
+    position: relative;
     padding:0px; 
     margin:0px;
     
@@ -68,7 +68,7 @@ body {
 #index-subtitle{
     font-size: auto;
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 2px;
+    -webkit-text-stroke: 1px;
     color: black;
 
 }
@@ -205,4 +205,52 @@ background-color: #F7A659;
 }
 #story-butt{
     background-color: #C6E345;
+}
+
+#footer {
+    background-color: #C6E345;
+    height: 100px;
+    position: relative;
+    padding:10px; 
+    margin:0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#footer-links{
+    float:right;
+margin:10px;
+}
+
+
+#service-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#landing-info-checklist {
+    text-align: left;
+    padding-left: 0px;
+    list-style-type: none;
+   justify-content: center;
+}
+
+
+.landing-info-check {
+    height: 25px;
+    padding: 5px;
+    
+}
+
+.check{
+    display: flex;
+    align-items:center;
+}
+
+#landing-info-subtitle{
+    color:black;
+    margin: 25px;
 }
