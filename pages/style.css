@@ -8,21 +8,26 @@ body {
     background-color: #C6E345;
     width: 100vw;
     height: 100px;
-    position: fixed;
+    /* position: fixed; */
+    padding:0px; 
+    margin:0px;
+    
 }
 
-
-
-
+.page{
+    display: flex;
+    flex-direction: column;
+}
 
 #index-landing {
-    width: 100vw;
+    /* width: 100vw; */
     height: 100vh;
     background-color: #D493E6;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     border-bottom:3px solid black;
 }
 
@@ -55,7 +60,8 @@ body {
 }
 
 #index-about{
-    width:100vw;
+    /* width:100vw; */
+    position: relative;
     /* height:450px; */
 }
 
@@ -82,5 +88,35 @@ body {
 #about-title{
     margin: 5px 0px;
     color:#2C5DFF;
+    font-size: 28px;
 }
 
+#index-real{
+    /* width:100vw; */
+    height:auto;
+    background-color: #F7A659;
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+
+    
+}
+
+
+#index-real-box{
+    width:80%;
+    background-color: #86D9D7 ;
+    border-radius: 20px;
+    border: 3px solid black;
+    padding: 25px;
+    margin: 25px auto;
+    
+}
+
+#index-real-title{
+    color:#2C5DFF;
+    font-size: 36px;
+
+}
