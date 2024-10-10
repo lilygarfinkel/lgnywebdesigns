@@ -6,13 +6,21 @@ body {
 }
 
 #navbar {
-    background-color: #C6E345;
+    background-color: #c4dab2;
     /* width: 100vw; */
     height: 100px;
     position: relative;
-    padding:0px; 
-    margin:0px;
+    /* padding:0px; 
+    margin:0px; */
+    justify-content: center;
+    align-items: center;
     
+}
+#logo{
+    height: 90px;
+    position: relative;
+    margin: 5px;
+    padding: auto;
 }
 
 .page{
@@ -25,9 +33,11 @@ body {
     border-radius: 5px;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
-    margin-top: 25px;
+    margin-top: 50px;
     color: black;
-    
+    text-decoration: none;
+    text-align: center;
+    padding:2px;
 }
 
 
@@ -36,7 +46,7 @@ body {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-optical-sizing: auto;
-    color:#2C5DFF;
+    color:#3f245b ;
     font-style: normal;
     margin: 0px;
     padding:0px;
@@ -54,11 +64,9 @@ body {
 #index-landing {
     /* width: 100vw; */
     height: 50vh;
-    background-color: #D493E6;
+    background-color: #a585c4;
     display: flex;
     /*flex-direction: column; */
-    justify-content: center;
-    align-items: center;
     text-align: center;
     border-bottom:3px solid black;
     display: grid;
@@ -81,12 +89,13 @@ body {
     z-index:0;
     grid-row:1;
     grid-column: 1;
-    height:290px;
-    margin:auto;
+    height:45vh;
+    margin: 0 auto;
+    
 }
 #index-title{
     font-size: auto;
-    color: black;
+    color: #3f245b;
     position: relative;
 
 }
@@ -95,14 +104,15 @@ body {
 #index-subtitle{
     position: relative;
     font-size: auto;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1px;
-    color: black;
+    color: #a585c4;
+    background-color: #3f245b;
+    padding: 2px 10px;
   
 }
 
 #index-about{
     /* width:100vw; */
+    margin-top: -3px;
     position: relative;
     /* height:450px; */
 }
@@ -110,7 +120,7 @@ body {
 #index-about-box{
     width:60%;
     height: auto;
-    background-color: #C6E345;
+    background-color: #c4dab2;
     position: relative;
     float: right;
     display: flex;
@@ -135,20 +145,20 @@ body {
 #index-real{
     /* width:100vw; */
     height:auto;
-    background-color: #F7A659;
+    background-color: #c488d4;
     position: relative;
     display: flex;
     align-items: center;
     border-top: 3px solid black;
     border-bottom: 3px solid black;
-
+    margin-top: -3px;
     
 }
 
 
 #index-real-box{
     width:80%;
-    background-color: #86D9D7 ;
+    background-color: #77bdc6 ;
     border-radius: 20px;
     border: 3px solid black;
     padding: 25px;
@@ -157,7 +167,7 @@ body {
 }
 
 #index-real-title{
-    color:#2C5DFF;
+    /* color:#000000 ; */
     font-size: 36px;
 
 }
@@ -172,26 +182,32 @@ body {
 }
 
 #words-box{
-    background-color: #C6E345;
+    background-color: #c4dab2;
     border: 3px solid black;
     border-radius: 20px;
     padding:25px;
     margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
     
 }
 
 #index-story{
-    background-color: #86D9D7;
+    background-color: #77bdc6;
     padding:25px;
     text-align: center;
     border-top: 3px solid black;
     border-bottom: 3px solid black;
 }
 #index-story-box{
-    background-color: #D493E6;
+    background-color: #c488d4;
     border: 3px solid black;
     border-radius: 20px;
     padding:25px;
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
 }
 #index-story-title{
     font-size:28px;
@@ -200,13 +216,15 @@ body {
 #index-contact{
     /* width:100vw; */
     position: relative;
+    color:white;
+
     /* height:450px; */
 }
 
 #index-contact-box{
     width:40%;
     height: auto;
-    background-color: #C6E345;
+    background-color: #3f245b;
     position: relative;
     float: left;
     display: flex;
@@ -218,25 +236,32 @@ body {
     border-bottom: 3px solid black;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+    margin-top: -3px;
 
     padding: 50px 25px;
 
 }
 
-#about-butt{
-    background-color: #D493E6;
+#contact-title{
+    color: white;
+}
+
+#about-butt,  #contact-butt{
+    background-color: #a585c4;
     width: 100px;
 }
 
-#words-butt, #contact-butt{
-background-color: #F7A659;
+#words-butt{
+background-color: #3f245b;
+width: 100px;
 }
 #story-butt{
-    background-color: #C6E345;
+    background-color: #c4dab2;
+    width: 100px;
 }
 
 #footer {
-    background-color: #C6E345;
+    background-color: #c4dab2;
     height: 100px;
     position: relative;
     padding:10px; 
