@@ -23,14 +23,14 @@
 
     <div id="index" class="page">
         <div id="navbar">
-           <img alt="logo" id="logo" src="../images/LGNY.svg" />
+            <!-- <img alt="logo" id="logo" src="../images/LGNY.svg" /> -->
         </div>
         <div id="index-landing">
             <div id="index-titles">
                 <h1 id="index-title" class="title-text">EVERY BUSINESS HAS A STORY</h1>
                 <h1 id="index-subtitle" class="title-text">YOUR WEBSITE SHOULD TELL YOURS</h1>
             </div>
-            <img alt="logo" id="spidey" src="../images/spidey.svg" />
+            <!-- <img alt="logo" id="spidey" src="../images/spidey.svg" /> -->
         </div>
         <div id="index-about">
             <div id="index-about-box">
@@ -52,7 +52,7 @@
                     Let's Be Real... It's 2024.
                 </div>
                 <div id="index-real-text" class="text">
-                    Think of your website as your own personal digital billboard. If your business doesn’t have an
+                   If your business doesn’t have an
                     established online presence, you’re missing out on easy advertising and potential customers.
                 </div>
             </div>
@@ -64,13 +64,15 @@
             <P class="text">
                 Your website is more than just a showcase of your products or services. It should establish the
                 credibility of your business while still creating a sense of trust and professionalism.
+
+                <br/>   Think of your website as your own personal digital billboard.
             </P>
             <div id="words-box">
                 <p class="text">
                     We’ll work with you directly to ensure every aspect of your site represents your brand. From the
                     colors to the content, every element is created with intention.
                 </p>
-                <a  id="words-butt" class="button" href="contact.html">
+                <a id="words-butt" class="button" href="contact.html">
                     LET'S GET STARTED
                 </a>
             </div>
@@ -84,32 +86,44 @@
                     Founded in 2024, LGNY was created to fill the gap between complex e-commerce websites and
                     informational facebook pages.
                 </div>
-                <a  id="story-butt" class="button" href="about.html">
-                    READ OURS
+                <a id="story-butt" class="button" href="about.html">
+                    READ OUR STORY
                 </a>
             </div>
-        </div>
 
-        <div id="index-contact">
-            <div id="index-contact-box">
-                <h1 id="contact-title" class="title-text">
-                    READY TO GET STARTED?
-                </h1>
-                <p id="about-text" class="text">Leave us a message and we’ll get back to you within 5 business days.</p>
-            </div>
-            <div id="contact-form">
-                <a  id="contact-butt" class="button">
-                    SUBMIT
-                </a>
-            </div>
-        </div>
+</div>
+            <div id="index-contact">
+                <div id="index-contact-box">
+                    <h1 id="contact-title" class="title-text">
+                        READY TO GET STARTED?
+                    </h1>
+                    <p id="contact-text" class="text">Leave us a message and we'll get back to you within 5 business days.
+                    </p>
+                </div>
+                <div>
+                    <form class='form' id='homeform' action="https://formspree.io/f/mzzpqddq" method="POST">
+                        <input type="hidden" name="_subject" value="Contact request from personal website" />
+                        <div id="names">
+                            <input type="text" name="_fname" class="inpN" placeholder="First Name" required>
+                            <input type="text" name="_lname" class="inpN" placeholder="Last Name" required>
+                        </div>
+                        <input type="email" name="_replyto" class="inp" placeholder="Email Address" required>
+                        <input type="confemail" name="_replyto" class="inp" placeholder="Confirm Email Address"
+                            required>
+                        <textarea name="message" class='inp' id='message' placeholder="Type your message"
+                            required></textarea><br />
+                        <button type="submit" id="contact-butt" class="button">SUBMIT</button>
+                    </form>
+                </div>
+
+      </div>
         <div id="footer">
             <p id="logo">LGNY</p>
             <div id="footer-links" class="text">
                 <a href="index.html">Home</a>
                 <a href="about.html">About</a>
                 <a href="services.html">Services</a>
-                <a href="contact">Contact</a>
+                <a href="contact.html">Contact</a>
             </div>
 
         </div>
