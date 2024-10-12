@@ -35,6 +35,14 @@ body {
     padding: auto;
 }
 
+#logofoot {
+    height: 200px;
+    position: relative;
+    margin: 5px;
+    padding: auto;
+}
+
+
 .page {
     display: flex;
     flex-direction: column;
@@ -314,7 +322,7 @@ body {
 
 #footer {
     background-color: #EE82EE;
-    height: 100px;
+    /* height: 100px; */
     position: relative;
     padding: 10px;
     margin: 0px;
@@ -326,7 +334,8 @@ body {
 
 }
 
-#footer-links {
+
+#footer-links, #footer-text {
     float: right;
     margin: 10px;
 }
