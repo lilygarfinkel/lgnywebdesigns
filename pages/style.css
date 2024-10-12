@@ -71,7 +71,7 @@ body {
     background-color: #EE82EE;
     display: flex;
     /*flex-direction: column; */
-    /* text-align: center; */
+    text-align: center;
     border-bottom: 3px solid black;
     display: grid;
 }
