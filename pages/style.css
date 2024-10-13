@@ -219,6 +219,7 @@ body {
     width: 70%;
     border-radius: 10px;
     margin-bottom:10px;
+    z-index: 5;
     /* margin: 25px 0px; */
 }
 
@@ -230,7 +231,7 @@ body {
 }
 #index-real-text {
     font-size: large;
-    margin-right:75px
+    margin-right:25px
 }
 
 #index-words {
@@ -275,20 +276,23 @@ body {
 #billboard{
     position: relative;
     bottom: 0;
-    /* margin-bottom:-25px; */
-    width: 100%;
+    margin-right:25px;
+    margin-left:auto;
+    height:10%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
 }
 
 #billboard-box{
     display: flex;
-    /* flex-direction: row; */
-
+    flex-direction: column;
+    margin-top:-10%;
 }
 
 #billboard-sub{
     display: flex;
-    width:30%;
-    justify-content: baseline;
+    justify-content: end;
     align-items: end;
 }
 /* -------------------- */
