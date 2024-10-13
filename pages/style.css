@@ -226,7 +226,7 @@ body {
 #index-real-title {
     font-family: "Caprasimo", serif;
     color: black;
-    font-size: xx-large;
+    font-size: x-large;
     margin: 10px 0px;
 }
 #index-real-text {
@@ -256,6 +256,8 @@ body {
 #index-story-subtitle{
     padding:25px 50px;
     font-size: large;
+    justify-content: baseline;
+    text-align: start;
 
 }
 
@@ -331,9 +333,10 @@ body {
 
 }
 
-#contact-title,
-#contact-text {
-    color: black;
+#contact-title {
+    font-family: "Caprasimo", serif;
+
+font-size: xx-large
 }
 
 #contact-butt {
@@ -378,17 +381,28 @@ body {
     justify-content: space-between;
 
 }
-
-
-#footer-links,
-#footer-text {
-    float: right;
+#footer-left{
+    float: left;
     margin: 10px;
+    }
+
+#footer-right{
+    float: right;
+    text-align: end;
+    margin: 10px;
+
+}
+
+#footer-links {
+    display: flex;
 }
 
 .footer-link {
     text-decoration: none;
     color: black;
+    margin: 10px;
+    margin-right:0px;
+
 }
 
 
