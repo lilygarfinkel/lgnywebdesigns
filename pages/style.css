@@ -28,12 +28,17 @@ body {
     padding: auto;
 }
 
-#logofoot {
+#logofoot{
    height: 50px;
     position: relative;
     margin: 10px;
     margin-left: 25px;
     padding: auto;
+}
+
+#logofooter{
+    margin-left: 0px;
+    height:25px;
 }
 
 
