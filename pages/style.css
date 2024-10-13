@@ -137,6 +137,12 @@ body {
     flex-direction: column;
     margin-bottom: 50px;
 }
+#index-landing-sub{
+    display: flex;
+    flex-direction: row;
+    margin: 25px;
+
+}
 
 #index-titles {
     display: flex;
@@ -155,7 +161,7 @@ body {
     position: relative;
     font-weight: 400;
     font-style: normal;
-    padding: 2px 10px;
+    padding: 2px 0px;
 }
 
 
@@ -178,26 +184,27 @@ body {
     width: 100vw;
     position: relative;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    /* align-items: center; */
+    justify-content: end;
 }
 
 #index-about-box {
-    width: 50%;
+    width: 90%;
     height: auto;
     background-color: #bbf65d;
     position: relative;
-    float: right;
-    display: flex;
+  display: flex;
     flex-direction: column;
     justify-content: center;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     padding: 50px 25px;
-    
+    right: 0;  
 }
 
 #about-title {
+    font-family: "Caprasimo", serif;
+    font-size: x-large;
     margin: 5px 0px;
 }
 
@@ -208,9 +215,10 @@ body {
 }
 
 #index-real-box {
-    width: 80%;
+    width: 70%;
     border-radius: 10px;
-    margin: 25px 0px;
+    margin-bottom:10px;
+    /* margin: 25px 0px; */
 }
 
 #index-real-title {
@@ -264,15 +272,23 @@ body {
 }
 
 #billboard{
-    margin-top:75px;
-    width:40%;
+    position: relative;
+    bottom: 0;
+    margin-bottom:-25px;
 }
 
 #billboard-box{
     display: flex;
     flex-direction: row;
+
 }
 
+#billboard-sub{
+    display: flex;
+    width:30%;
+
+    justify-content: baseline;
+}
 /* -------------------- */
 
 #index-contact {
@@ -314,12 +330,18 @@ body {
 }
 
 #contact-butt {
+    font-family: "Caprasimo", serif;
     width: 100px;
     height: 100px;
     position: relative;
     background-color: #bbf65d;
     border: 1px solid black;
     right: 0;
+    font-size: 75px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 
 /* --------- */
