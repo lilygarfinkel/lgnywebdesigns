@@ -386,6 +386,10 @@ font-size: xx-large
     margin: 10px;
     }
 
+    #email{
+        padding-bottom: 10px;
+    }
+
 #footer-right{
     float: right;
     text-align: end;
@@ -401,7 +405,7 @@ font-size: xx-large
     text-decoration: none;
     color: black;
     margin: 10px;
-    margin-right:0px;
+    margin-left:0px;
 
 }
 
