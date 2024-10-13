@@ -379,6 +379,7 @@ font-size: xx-large
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    font-size: small;
 
 }
 #footer-left{
