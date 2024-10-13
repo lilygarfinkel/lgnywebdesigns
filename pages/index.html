@@ -13,7 +13,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
 
 
 </head>
@@ -23,21 +24,28 @@
 
     <div id="index" class="page">
         <div id="navbar">
-            <!-- <h1 class="logo">LGNY</h1> -->
-            <img alt="logo" id="logo" src="../images/LGNY1.svg" />
-
+            <div class="dropdown">
+                <button class="dropbtn">≡</button>
+                <div class="dropdown-content">
+                    <a href="index.html">Home</a>
+                    <a href="services.html">Services</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
         </div>
         <div id="index-landing">
             <div id="index-titles">
                 <h1 id="index-title" class="title-text">EVERY BUSINESS HAS A STORY.</h1>
                 <h1 id="index-subtitle" class="title-text">YOUR WEBSITE SHOULD TELL YOURS.</h1>
-
+                <div id="index-story-text" class="text">
+                    Founded in 2024, LGNY was created to fill the gap between complex e-commerce websites and
+                    informational facebook pages.
+                </div>
             </div>
-            <img alt="logo" id="index-image" src="../images/homeimage.svg" />
-
-            <!-- <img alt="logo" id="spidey" src="../images/spidey.svg" /> -->
         </div>
         <div id="index-about">
+            <img alt="logo" id="index-image" src="../images/homeimage.svg" />
             <div id="index-about-box">
                 <p id="about-text" class="text">We Make</p>
                 <h1 id="about-title" class="title-text">
@@ -51,38 +59,51 @@
                 </a>
             </div>
         </div>
-        <div id="index-real">
+
+        <div id="index-words">
+            <div id="index-story-titles">
+                <h1 id='index-story-title' class="title-text">
+                    A WEBSITE SPEAKS A THOUSAND WORDS
+                </h1>
+                <P id='index-story-subtitle' class="text">
+                    Your website is more than just a showcase of your products or services. It should establish the
+                    credibility of your business while still creating a sense of trust and professionalism.
+
+                    <br /><br/>
+                    We’ll work with you directly to ensure every aspect of your site represents your brand. From the
+                    colors to the content, every element is created with intention.
+              
+                </P>
+            </div>
+            <div id="squigboxes">
+                <img alt="img" class="squigbox" src="../images/squigbox.svg" />
+                <img alt="img" class="squigbox" src="../images/squigbox.svg" />
+                <img alt="img" class="squigbox" src="../images/squigbox.svg" />
+            </div>
+            <div id="billboard-box">
             <div id="index-real-box">
                 <div id="index-real-title" class="title-text">
                     Let's Be Real... It's 2024.
                 </div>
                 <div id="index-real-text" class="text">
-                   If your business doesn’t have an
-                    established online presence, you’re missing out on easy advertising and potential customers.
+                    Think of your website as your own personal digital billboard.
+                    <br /><br />
+                    If your business doesn’t have an
+                    established online presence, you’re missing out on easy advertising and potential customers from
+                    passing traffic.
                 </div>
-            </div>
-        </div>
-        `<div id="index-words">
-            <h1 class="title-text">
-                A WEBSITE SPEAKS A THOUSAND WORDS
-            </h1>
-            <P class="text">
-                Your website is more than just a showcase of your products or services. It should establish the
-                credibility of your business while still creating a sense of trust and professionalism.
-
-                <br/>   Think of your website as your own personal digital billboard.
-            </P>
-            <div id="words-box">
-                <p class="text">
-                    We’ll work with you directly to ensure every aspect of your site represents your brand. From the
-                    colors to the content, every element is created with intention.
-                </p>
-                <a id="words-butt" class="button" href="contact.html">
+                <br />
+                <!-- <a id="about-butt" class="button" href="contact.html">
                     LET'S GET STARTED
-                </a>
+                </a> -->
+            </div>
+            <img alt="billboard" id="billboard" src="../images/billboard.svg"/>
             </div>
         </div>
-        <div id="index-story">
+        <!-- <div id="index-real">
+    
+        </div> -->
+        <!-- <div id="index-story">
             <div id="index-story-box">
                 <div id="index-story-title" class="title-text">
                     every business has a story
@@ -96,17 +117,19 @@
                 </a>
             </div>
 
-</div>
-            <div id="index-contact">
-                <div id="index-contact-box">
-                    <h1 id="contact-title" class="title-text">
-                        READY TO GET STARTED?
-                    </h1>
-                    <p id="contact-text" class="text">Leave us a message and we'll get back to you within 5 business days.
-                    </p>
-                </div>
-                <div>
-                    <form class='form' id='homeform' action="https://formspree.io/f/mzzpqddq" method="POST">
+</div> -->
+        <div id="index-contact">
+            <div id="index-contact-box">
+                <h1 id="contact-title" class="title-text">
+                    READY TO GET STARTED?
+                </h1>
+                <p id="contact-text" class="text">Leave us a message and we'll get back to you within 5 business days.
+                </p>
+            </div>
+            <div id="homeform">
+                <a id="contact-butt" class="button">SUBMIT</a>
+
+                <!-- <form class='form' id='homeform' action="https://formspree.io/f/mzzpqddq" method="POST">
                         <input type="hidden" name="_subject" value="Contact request from personal website" />
                         <div id="names">
                             <input type="text" name="_fname" class="inpN" placeholder="First Name" required>
@@ -118,21 +141,21 @@
                         <textarea name="message" class='inp' id='message' placeholder="Type your message"
                             required></textarea><br />
                         <button type="submit" id="contact-butt" class="button">SUBMIT</button>
-                    </form>
-                </div>
-
-      </div>
-        <div id="footer">
-            <img alt="logo" id="logofoot" src="../images/LGNY.svg" />
-            <div id='footer-left'>
-            <div id="footer-links" class="text">
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="services.html">Services</a>
-                <a href="contact.html">Contact</a>
+                    </form> -->
             </div>
-            <p id='footer-text' class="text">© 2024 LGNY Web Designs</p> 
+
         </div>
+        <div id="footer">
+            <!-- <img alt="logo" id="logofoot" src="../images/LGNY.svg" /> -->
+            <div id='footer-left'>
+                <div id="footer-links" class="text">
+                    <a href="index.html" class="footer-link">Home</a>
+                    <a href="about.html" class="footer-link">About</a>
+                    <a href="services.html" class="footer-link">Services</a>
+                    <a href="contact.html" class="footer-link">Contact</a>
+                </div>
+                <p id='footer-text' class="text">© 2024 LGNY Web Designs</p>
+            </div>
         </div>
     </div>
 
