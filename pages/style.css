@@ -625,4 +625,15 @@ body {
         width: 50vw;
     }
 
+    /* ----------------------- */
+    #index-real-box {
+        width: 100%;
+    }
+    #index-real-text {
+        margin: 0px;
+    }
+    #billboard-box{
+        margin-top:5px;
+    }
+
 }
