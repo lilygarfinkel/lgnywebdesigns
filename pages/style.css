@@ -259,7 +259,11 @@ body {
     font-family: "Caprasimo", serif;
     font-size: x-large;
 }
-
+#index-story-sub{
+    font-family: "Montserrat", sans-serif;
+    font-size: medium;
+    font-weight:800;
+}
 #index-story-subtitle {
     padding: 25px 0px;
     font-size: large;
@@ -458,6 +462,7 @@ body {
     font-size: medium;
     font-weight: 400;
 }
+
 
 #service-info-landing {
     display: flex;
