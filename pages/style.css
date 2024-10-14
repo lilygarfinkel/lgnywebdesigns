@@ -28,17 +28,17 @@ body {
     padding: auto;
 }
 
-#logofoot{
-   height: 50px;
+#logofoot {
+    height: 50px;
     position: relative;
     margin: 10px;
     margin-left: 25px;
     padding: auto;
 }
 
-#logofooter{
+#logofooter {
     margin-left: 0px;
-    height:25px;
+    height: 25px;
 }
 
 
@@ -61,7 +61,7 @@ body {
 
 
 .title-text {
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "Caprasimo", serif;
     font-weight: 400;
     font-optical-sizing: auto;
     color: black;
@@ -143,7 +143,8 @@ body {
     flex-direction: column;
     margin-bottom: 50px;
 }
-#index-landing-sub{
+
+#index-landing-sub {
     display: flex;
     flex-direction: row;
     margin: 25px;
@@ -199,13 +200,13 @@ body {
     height: auto;
     background-color: #bbf65d;
     position: relative;
-  display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     padding: 50px 25px;
-    right: 0;  
+    right: 0;
 }
 
 #about-title {
@@ -223,7 +224,7 @@ body {
 #index-real-box {
     width: 70%;
     border-radius: 10px;
-    margin-bottom:10px;
+    margin-bottom: 10px;
     z-index: 5;
     /* margin: 25px 0px; */
 }
@@ -234,16 +235,17 @@ body {
     font-size: x-large;
     margin: 10px 0px;
 }
+
 #index-real-text {
     font-size: large;
-    margin-right:25px
+    margin-right: 25px
 }
 
 #index-words {
     display: flex;
     flex-direction: column;
     padding: 50px;
-    padding-bottom:0px;
+    padding-bottom: 0px;
 }
 
 #index-story-text {
@@ -258,19 +260,20 @@ body {
     font-size: x-large;
 }
 
-#index-story-subtitle{
-    padding:25px 0px;
+#index-story-subtitle {
+    padding: 25px 0px;
     font-size: large;
     justify-content: baseline;
     text-align: start;
 
 }
 
-#index-story-titles{
+#index-story-titles {
     display: flex;
     flex-direction: column;
     text-align: center;
 }
+
 #squigboxes {
     margin: 25px;
 
@@ -280,21 +283,21 @@ body {
     width: 30%;
 }
 
-#billboard{
+#billboard {
     position: relative;
     bottom: 0;
-    margin-right:25px;
-    margin-left:auto;
-    height:10%;
+    margin-right: 25px;
+    margin-left: auto;
+    height: 10%;
     display: flex;
     justify-content: end;
     align-items: end;
 }
 
-#billboard-box{
+#billboard-box {
     display: flex;
     flex-direction: column;
-    margin-top:-10%;
+    margin-top: -10%;
     z-index: 5;
 }
 
@@ -314,8 +317,8 @@ body {
     justify-content: center;
     background-color: #bbf65d;
     border-radius: 10px;
-    margin:  25px;
-    margin-top:-10px;
+    margin: 25px;
+    margin-top: -10px;
 }
 
 #index-contact-box {
@@ -341,7 +344,7 @@ body {
 #contact-title {
     font-family: "Caprasimo", serif;
 
-font-size: xx-large
+    font-size: xx-large
 }
 
 #contact-butt {
@@ -373,9 +376,11 @@ font-size: xx-large
 
 
 #story-butt {
-    background-color: #D9F201;
+    /* background-color: #D9F201; */
     width: 100px;
 }
+
+/* ------------------------------ */
 
 #footer {
     position: relative;
@@ -387,16 +392,17 @@ font-size: xx-large
     font-size: small;
 
 }
-#footer-left{
+
+#footer-left {
     float: left;
     margin: 10px;
-    }
+}
 
-    #email{
-        padding-bottom: 10px;
-    }
+#email {
+    padding-bottom: 10px;
+}
 
-#footer-right{
+#footer-right {
     float: right;
     text-align: end;
     margin: 10px;
@@ -411,11 +417,11 @@ font-size: xx-large
     text-decoration: none;
     color: black;
     margin: 10px;
-    margin-left:0px;
+    margin-left: 0px;
 
 }
 
-
+/* ----------------------------------------- */
 #service-info {
     display: flex;
     flex-direction: column;
@@ -423,12 +429,7 @@ font-size: xx-large
     align-items: center;
     text-align: center;
     padding: 25px;
-    background-color: #bbf65d;
-    border: 3px solid black;
-    border-radius: 10px;
     margin: 25px;
-
-
 }
 
 #landing-info-checklist {
@@ -454,24 +455,39 @@ font-size: xx-large
     font-family: "Montserrat", sans-serif;
     color: black;
     margin: auto;
-    font-size: 18px;
+    font-size: medium;
     font-weight: 400;
+}
+
+#service-info-landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #landing-info-title {
-    font-family: "Caprasimo", serif;
     font-weight: 400;
-    font-size: 36px;
-    padding: 15px;
+    font-size: xx-large;
+    background-image: url('../images/aura.svg');
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: contain;
+    background-position: center;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 
+
 }
+
 #contact-page-butt {
     position: relative;
     background-color: #bbf65d;
     border: 2px solid black;
-    border-radius:5px;
-    padding:5px;
+    border-radius: 5px;
+    padding: 5px;
     font-size: medium;
     display: flex;
     justify-content: center;
@@ -527,10 +543,86 @@ font-size: xx-large
 .inpN {
     width: 50%;
 }
-.inp{
+
+.inp {
     width: 100%;
 }
 
 #about {
     height: 80vh;
+}
+
+
+/* ------------------------------------- */
+#service-why {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+
+#service-why-title {
+    font-size: xx-large;
+}
+
+#why-boxes {
+    display: flex;
+    margin: 25px 0px;
+    /* margin-left:0px; */
+    justify-content: space-between;
+}
+
+#why-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: 10px; */
+}
+
+#why-textbox {
+    background-color: #bbf65d;
+    width: 20vw;
+    margin: 25px 0px;
+    margin-top: -35px;
+    padding: 25px;
+    padding-top: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#phone {
+    height: 75px;
+    z-index: 5;
+}
+
+.why-title {
+    font-family: "Caprasimo", serif;
+    font-size: medium;
+}
+
+.why-text {
+    font-family: M;
+}
+
+@media all and (max-width: 500px) {
+    #footer {
+        flex-direction: column;
+    }
+
+    #footer-right {
+        float: left;
+        text-align: start;
+    }
+
+    /* ---------------------- */
+    #why-boxes {
+        display: flex;
+        flex-direction: column;
+        margin: 25px;
+    }
+
+    #why-textbox {
+        width: 50vw;
+    }
+
 }
