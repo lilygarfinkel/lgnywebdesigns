@@ -1,9 +1,10 @@
 html,
 body {
     padding: 0px;
-
     margin: 0px;
     background-color: #fffffd;
+
+    --outfit:  "Outfit", sans-serif;
 }
 
 #navbar {
@@ -61,8 +62,8 @@ body {
 
 
 .title-text {
-    font-family: "Caprasimo", serif;
-    font-weight: 400;
+    font-family: var(--outfit);
+    font-weight: 600;
     font-optical-sizing: auto;
     color: black;
     font-style: normal;
@@ -166,18 +167,20 @@ margin-top: 50px;
 
 
 #index-title {
-    font-family: "Caprasimo", serif;
+    font-family: var(--outfit);
     font-size: xx-large;
     color: black;
     position: relative;
     font-weight: 400;
     font-style: normal;
-    padding: 2px 0px;
+    padding: 2px 0px; 
+    font-weight: 600;
+
 }
 
 
 #index-subtitle {
-    font-family: "Caprasimo", serif;
+    font-family: var(--outfit);
     position: relative;
     color: #bbf65d;
     background-color: black;
@@ -188,6 +191,8 @@ margin-top: 50px;
     margin-bottom: 25px;
     margin-right: auto;
     margin-bottom:0px;
+    font-weight: 600;
+
 
 }
 
@@ -218,10 +223,11 @@ margin-top: 50px;
 }
 
 #about-title {
-    font-family: "Caprasimo", serif;
+    font-family: var(--outfit);
     font-size: xx-large;
     margin: 5px 0px;
-    color:white;
+    color:#bbf65d;
+    font-weight: 600;
 }
 
 
@@ -252,10 +258,14 @@ margin-top: 50px;
 }
 
 #index-real-title {
-    font-family: "Caprasimo", serif;
+    font-family: var(--outfit);
     color: black;
-    font-size: x-large;
-    margin: 10px 0px;
+    font-size: xx-large;
+    font-weight: 600;
+    margin: 25px auto;
+    margin-left:0px;
+    background-color: #bbf65d;
+    
 }
 
 #index-real-text {
@@ -278,8 +288,9 @@ margin-top: 50px;
 
 
 #index-story-title {
-    font-family: "Caprasimo", serif;
-    font-size: x-large;
+    font-family: var(--outfit);
+    font-size: xx-large;
+    font-weight: 600;
 }
 #index-story-sub{
     font-family: "Montserrat", sans-serif;
@@ -304,11 +315,6 @@ margin-top: 50px;
     margin: 25px;
 
 }
-
-.squigbox {
-    width: 30%;
-}
-
 #billboard {
     position: relative;
     bottom: 0;
@@ -327,11 +333,7 @@ margin-top: 50px;
     z-index: 5;
 }
 
-/* #billboard-sub{
-    display: flex;
-    justify-content: end;
-    align-items: end;
-} */
+
 /* -------------------- */
 
 #index-contact {
@@ -368,13 +370,13 @@ margin-top: 50px;
 }
 
 #contact-title {
-    font-family: "Caprasimo", serif;
-
-    font-size: xx-large
+    font-family: var(--outfit);
+    font-size: xx-large;
+    font-weight: 600;
 }
 
 #contact-butt {
-    font-family: "Caprasimo", serif;
+    font-family: var(--outfit);
     width: 100px;
     height: 100px;
     position: relative;
@@ -451,9 +453,6 @@ margin-top: 50px;
 #service-info {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-    /* align-items: center;
-    text-align: center; */
     padding: 25px;
     padding-left:0px;
     margin: 25px;
@@ -470,7 +469,6 @@ margin-top: 50px;
 .landing-info-check {
     height: 25px;
     padding: 5px;
-
 }
 
 .check {
@@ -494,14 +492,11 @@ margin-top: 50px;
 }
 
 #landing-info-title {
-    font-weight: 400;
     font-size: xx-large;
     margin:25px auto;
     margin-left:0px;
     padding:10px;
     display: flex;
-    /* align-items: center; */
-    /* text-align:start; */
     background-color: #bbf65d;
 
 
@@ -593,7 +588,6 @@ margin-top: 50px;
 #why-boxes {
     display: flex;
     margin: 25px 0px;
-    /* margin-left:0px; */
     justify-content: space-between;
 }
 
@@ -602,7 +596,6 @@ margin-top: 50px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* margin: 10px; */
 }
 
 #why-textbox {
@@ -623,12 +616,12 @@ margin-top: 50px;
 }
 
 .why-title {
-    font-family: "Caprasimo", serif;
+    font-family: var(--outfit);
     font-size: medium;
 }
 
 .why-text {
-    font-family: M;
+    /* font-family: M; */
 }
 
 @media all and (max-width: 600px) {
