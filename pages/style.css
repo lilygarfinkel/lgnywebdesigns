@@ -288,7 +288,7 @@ body {
     bottom: 0;
     margin-right: 25px;
     margin-left: auto;
-    height: 10%;
+    height: 30vh;
     display: flex;
     justify-content: end;
     align-items: end;
@@ -297,7 +297,7 @@ body {
 #billboard-box {
     display: flex;
     flex-direction: column;
-    margin-top: -10%;
+    margin-top: -30vh;
     z-index: 5;
 }
 
