@@ -155,7 +155,7 @@ body {
     display: flex;
     flex-direction: column;
     position: relative;
-    margin: 10px;
+    margin: 25px;
     padding: 1px;
 
 }
@@ -580,6 +580,7 @@ body {
 }
 
 #why-textbox {
+    flex:1;
     background-color: #bbf65d;
     width: 20vw;
     margin: 25px 0px;

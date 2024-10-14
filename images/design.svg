@@ -1,0 +1,13 @@
+<svg width="384" height="393" viewBox="0 0 384 393" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="4" y="93" width="370" height="296" rx="21" fill="#F5F5F5" stroke="black" stroke-width="8"/>
+<path d="M0 108.974C0 97.9428 8.94283 89 19.9744 89H358.026C369.057 89 378 97.9428 378 108.974V108.974C378 120.006 369.057 128.949 358.026 128.949H19.9744C8.94284 128.949 0 120.006 0 108.974V108.974Z" fill="black"/>
+<circle cx="21" cy="110" r="8" fill="#D9D9D9"/>
+<circle cx="21" cy="110" r="8" fill="#D9D9D9"/>
+<circle cx="77" cy="110" r="8" fill="#D9D9D9"/>
+<circle cx="50" cy="110" r="8" fill="#D9D9D9"/>
+<rect x="329.44" y="29.3171" width="39.4736" height="158.246" transform="rotate(36.9644 329.44 29.3171)" fill="#F5F5F5" stroke="black" stroke-width="4"/>
+<rect x="337.57" y="18.5142" width="39.4736" height="9.52048" transform="rotate(36.9644 337.57 18.5142)" fill="black" stroke="black" stroke-width="4"/>
+<path d="M355.787 7.61121L374.543 21.7264C378.073 24.3831 378.781 29.3987 376.125 32.929L364.863 47.8931L333.323 24.1569L344.585 9.19272C347.242 5.66248 352.257 4.95441 355.787 7.61121Z" fill="white" stroke="black" stroke-width="4"/>
+<path d="M232.913 159.731L226.327 199.151L262.383 181.911L232.913 159.731Z" fill="#F5F5F5" stroke="black" stroke-width="4"/>
+<path d="M229.712 183.474L226.535 198.876L240.454 191.559L229.712 183.474Z" fill="black" stroke="black" stroke-width="4"/>
+</svg>
