@@ -141,13 +141,17 @@ body {
 #index-landing {
     display: flex;
     flex-direction: column;
-    margin-bottom: 50px;
+    /* padding-bottom: 50px; */
+    background-color: #bbf65d;
 }
 
 #index-landing-sub {
     display: flex;
     flex-direction: row;
+    align-items: center;
     margin: 25px;
+    margin-top:0px;
+
 
 }
 
@@ -156,8 +160,8 @@ body {
     flex-direction: column;
     position: relative;
     margin: 25px;
-    padding: 1px;
-
+    margin-bottom:0px;
+margin-top: 50px;
 }
 
 
@@ -175,7 +179,7 @@ body {
 #index-subtitle {
     font-family: "Caprasimo", serif;
     position: relative;
-    color: #f5f5f5;
+    color: #bbf65d;
     background-color: black;
     padding: 2px 10px;
     font-weight: 400;
@@ -183,6 +187,7 @@ body {
     font-size: xx-large;
     margin-bottom: 25px;
     margin-right: auto;
+    margin-bottom:0px;
 
 }
 
@@ -191,14 +196,16 @@ body {
     width: 100vw;
     position: relative;
     display: flex;
+    background-color: #bbf65d;
     /* align-items: center; */
     justify-content: end;
+    padding: 50px 0px;
 }
 
 #index-about-box {
-    width: 90%;
+    width: 80%;
     height: auto;
-    background-color: #bbf65d;
+    background-color: black;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -207,18 +214,33 @@ body {
     border-bottom-left-radius: 5px;
     padding: 50px 25px;
     right: 0;
+   
 }
 
 #about-title {
     font-family: "Caprasimo", serif;
-    font-size: x-large;
+    font-size: xx-large;
     margin: 5px 0px;
+    color:white;
+}
+
+
+#about-text-top {
+    font-size: large;
+    margin: 5px 0px;
+    font-weight: 600;
+    color:white;
+}
+
+#about-text{
+    color:white;
 }
 
 #index-image {
     position: relative;
     width: 30%;
     margin: 0 auto;
+
 }
 
 #index-real-box {
@@ -429,10 +451,11 @@ body {
 #service-info {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    /* justify-content: center; */
+    /* align-items: center;
+    text-align: center; */
     padding: 25px;
+    padding-left:0px;
     margin: 25px;
 }
 
@@ -467,22 +490,20 @@ body {
 #service-info-landing {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+
 }
 
 #landing-info-title {
     font-weight: 400;
     font-size: xx-large;
-    background-image: url('../images/aura.svg');
-    background-repeat: no-repeat;
-    /* Do not repeat the image */
-    background-size: contain;
-    background-position: center;
-    height: 100px;
+    margin:25px auto;
+    margin-left:0px;
+    padding:10px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    /* align-items: center; */
+    /* text-align:start; */
+    background-color: #bbf65d;
+
 
 
 }
@@ -610,7 +631,12 @@ body {
     font-family: M;
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 600px) {
+
+    #index-landing-sub {
+        margin-top:25px;
+    }
+    /* --------------------- */
     #footer {
         flex-direction: column;
     }
