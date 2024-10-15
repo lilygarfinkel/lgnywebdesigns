@@ -23,14 +23,14 @@ body {
 }
 
 #logo {
-    height: 90px;
+    height: 60px;
     position: relative;
     margin: 5px;
     padding: auto;
 }
 
 #logofoot {
-    height: 50px;
+    height: 30px;
     position: relative;
     margin: 10px;
     margin-left: 25px;
@@ -529,26 +529,25 @@ margin-top: 50px;
     text-align: center;
     border-radius: 10px;
     margin: 25px;
-    padding: 0 20px;
+    /* padding: 0 20px; */
 }
 
 .form {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
+    /* text-align: center; */
     align-items: center;
     padding: 10px;
-    width: 100%;
+    /* width: 100%; */
 }
 
 #names {
     display: flex;
     flex-direction: row;
-    /* text-align: center; */
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
+    /* width: 100%; */
+    /* padding: 0px 10px; */
+    width: fit-content;
 
 }
 
@@ -562,7 +561,7 @@ margin-top: 50px;
 }
 
 .inpN {
-    width: 50%;
+width: auto
 }
 
 .inp {
