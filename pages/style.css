@@ -633,13 +633,13 @@ padding: 0px 10px;
     align-items: center;
     padding: 10px;
 
-    /* width: 100%; */
+    width: 80%;
 }
 
 #names {
     display: flex;
     flex-direction: row;
-    width: 350px;
+    width: 100%;
     justify-content: center;
 }
 
@@ -650,6 +650,7 @@ padding: 0px 10px;
     border: transparent;
     background-color: transparent;
     border-bottom: 2px solid white;
+    border-radius: 0px;
     color: white;
 
 }
@@ -665,8 +666,12 @@ padding: 0px 10px;
     font-weight: 600;
   }
 
+  .inpN{
+    width:50%;
+  }
+
 .inp {
-    width: 100%;
+     width:calc(100% - 22px);
 }
 
 #about {
