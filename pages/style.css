@@ -47,6 +47,7 @@ body {
 
 #logofooter {
     margin-left: 0px;
+    margin-top:0px;
     height: 125px;
 }
 
@@ -481,7 +482,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     font-size: small;
-
+    background-color: #000000;
 }
 
 #footer-left {
@@ -521,6 +522,9 @@ body {
     margin: 25px;
 }
 
+#service-image{
+    width:60%
+}
 #landing-info-checklist {
     text-align: left;
     padding-left: 0px;
@@ -541,7 +545,7 @@ body {
     border: 2px solid #be47ff;
     border-radius:40px ;
     margin: 15px 0px;
-    padding:10px;
+    padding:5px;
     width: max-content;
     height:50px;
     padding-left: 0px;
@@ -552,7 +556,7 @@ body {
     border: 2px solid #be47ff;
     background-color: #be47ff;
     border-radius:40px ;
-    padding: 10px;
+    padding: 5px;
     width: 100px;
     align-items: center;
     justify-content: center;
@@ -564,7 +568,7 @@ body {
 }
 
 .checktext{
-padding: 0px 10px;
+padding: 0px 25px;
 }
 #landing-info-subtitle {
     font-family: "Montserrat", sans-serif;
@@ -687,7 +691,7 @@ padding: 0px 10px;
 
 #why-textbox {
     flex: 1;
-    background-color: var(--green);
+    background-color: #27242d;
     width: 20vw;
     margin: 25px 0px;
     margin-top: -35px;
@@ -697,14 +701,30 @@ padding: 0px 10px;
     border-radius: 10px;
 }
 
+.grey-circle{
+    background-color: #151318;
+    border-radius: 30px;
+    height:80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    z-index: 5;
+    transform: rotate(45deg);
+}
+
 #phone {
     height: 75px;
     z-index: 5;
+    transform: rotate(-45deg);
+
 }
 
 .why-title {
     font-family: var(--outfit);
     font-size: medium;
+    color: white;
 }
 
 .why-text {
