@@ -216,7 +216,7 @@ body {
     height: 100px;
     background-image: url('../images/checkers.svg');
     background-repeat: repeat-x;
-    background-size: contain;
+    background-size: cover;
     bottom: 0;
     margin: 25px 0px;
 }
@@ -345,7 +345,8 @@ body {
 }
 
 #index-story-subtitle {
-    padding: 25px 25px;
+    padding: 25px;
+    padding-right: 0px;
     font-size: large;
     /* justify-content: right; */
     text-align: start;
