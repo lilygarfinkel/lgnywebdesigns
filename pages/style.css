@@ -557,13 +557,13 @@ body {
     background-color: #be47ff;
     border-radius:40px ;
     padding: 5px;
-    width: 100px;
+    width: 50px;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: #151318;
     font-weight: 800;
-    font-size: x-large;
+    font-size: large;
 
 }
 
