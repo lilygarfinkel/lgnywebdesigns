@@ -751,6 +751,9 @@ padding: 0px 10px;
 
 @media all and (max-width: 600px) {
 
+    #index-subtitle{
+        font-size: medium;
+    }
     #index-landing-sub {
         flex-direction: column;
     }
