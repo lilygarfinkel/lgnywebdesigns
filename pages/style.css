@@ -678,6 +678,10 @@ padding: 0px 10px;
     height: 80vh;
 }
 
+#index-social-text{
+    text-align: left;
+}
+
 
 /* ------------------------------------- */
 #service-why {
@@ -795,4 +799,8 @@ padding: 0px 10px;
         margin-top: 5px;
     }
 
+    /* ------------------------------ */
+    #index-row.land{
+        flex-direction: column;
+    }
 }
