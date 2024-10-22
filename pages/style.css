@@ -573,7 +573,7 @@ padding: 0px 10px;
 #landing-info-subtitle {
     font-family: "Montserrat", sans-serif;
     color: white;
-    margin: auto;
+    margin: 10px;
     font-size: medium;
     font-weight: 400;
     font-size: x-large;
@@ -588,7 +588,7 @@ padding: 0px 10px;
 
 #landing-info-title {
     font-size: xx-large;
-    margin: 25px auto;
+    margin: 25px;
     margin-left: 0px;
     padding: 10px;
     display: flex;
