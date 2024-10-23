@@ -756,11 +756,11 @@ padding: 0px 10px;
     text-align: center;
 }
 
-    #index-title{
-        font-size: large;
+    #index-title, #about-title{
+        font-size: x-large;
     }
 
-    #index-subtitle{
+    #index-subtitle, #about-text{
         font-size: medium;
     }
     #index-landing-sub {
@@ -775,7 +775,7 @@ padding: 0px 10px;
 
     #index-story-text {
         width: auto;
-        font-size: medium;
+        font-size: large;
     }
 
     #about-butt{
