@@ -193,7 +193,8 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    /* text-align: left; */
     /* margin-bottom: 50px; */
 }
 
@@ -329,7 +330,7 @@ body {
 #sparkleline{
     /* margin-right:-25px; */
     margin-left:auto;
-    width: 50%;
+    width: 100%;
     float:right;
     transform: scaleX(-1);
 }
@@ -339,14 +340,14 @@ body {
     font-family: var(--outfit);
     font-size: xx-large;
     font-weight: 600;
+text-align: left;
 }
 
 #index-story-sub {
     font-family: "Montserrat", sans-serif;
     font-size: medium;
     font-weight: 800;
-    float: left;
-    margin-right: auto;
+    text-align: left;
 }
 
 #index-story-subtitle {
@@ -523,7 +524,7 @@ body {
 }
 
 #service-image{
-    width:60%
+    width:50%
 }
 #landing-info-checklist {
     text-align: left;
@@ -592,6 +593,7 @@ padding: 0px 10px;
     margin-left: 0px;
     padding: 10px;
     display: flex;
+    text-align: left;
     /* background-color: var(--green); */
 
 
@@ -805,5 +807,13 @@ padding: 0px 10px;
     /* ------------------------------ */
     #index-row.land{
         flex-direction: column;
+    }
+
+    #index-row.col{
+        flex-direction: column;
+    }
+
+    .icon{
+        padding-top: 50px;
     }
 }
