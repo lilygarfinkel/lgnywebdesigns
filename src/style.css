@@ -752,6 +752,13 @@ padding: 0px 10px;
 }
 
 @media all and (max-width: 600px) {
+#index-titles{
+    text-align: center;
+}
+
+    #index-title{
+        font-size: large;
+    }
 
     #index-subtitle{
         font-size: medium;
